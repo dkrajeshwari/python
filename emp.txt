@@ -1,8 +1,0 @@
-1,raji,mtech,20000,cse
-2,sony,mtech,50000,ise
-3,gunnya,btech.40000,ece
-4,anni,be,50000,ee
-5,banni,phd,100000,ise
-6,anu,btech,30000,cse
-7,madhu,mtech,40000,ise
-8,asha,btech,60000,ee

@@ -5,20 +5,21 @@ $(function () {
             showResult(searchStr);
         }
     })
-    $("#idViewall").click(function() {
+    $("#idViewall").click(function () {
         $.ajax({
             url: "https://fms-mite.herokuapp.com/fms/",
-            method:"GET",
+            method: "GET",
             success: function (data) {
                 showTable(data)
 
             }
         })
     })
-   function showResult(str) {
+    
+    function showResult(str) {
         $.ajax({
             url: "https://fms-mite.herokuapp.com/fms/search/" + str,
-            method:"GET",
+            method: "GET",
             success: function (data) {
                 showTable(data)
 
